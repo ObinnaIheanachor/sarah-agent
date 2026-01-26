@@ -80,7 +80,7 @@ def __getattr__(name: str):
     # Supply sensible defaults/types for known keys here if you like:
     DEFAULTS = {
         "DOC_SOURCE": ("auto", str),
-        "CH_API_KEYS": ("4a905619-1bf3-499b-b643-479d202bd8b6, e252236f-2e5b-4547-9db0-22db041b4608, f3c0f262-b573-41ff-820b-56f9801ad908, 824e0849-0778-46b3-a021-7a3690590a47, df4fc086-cfcd-48e8-af04-3797035784be", str),
+        "CH_API_KEYS": (", , , , ", str), #removed api keys for security. present in actual codebase
         "CH_API_RPS": (8.0, float),
         "CH_API_MAX_CONC": (36, int),
         "CH_KEY_MAX_CONC": (6, int),
