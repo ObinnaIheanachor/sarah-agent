@@ -25,7 +25,7 @@ class ProviderRateLimited(Exception):
 
 def get_api_key() -> str:
     refresh_cfg()
-    return cfg("CH_API_KEY", "4a905619-1bf3-499b-b643-479d202bd8b6", str)
+    return cfg("CH_API_KEY", "", str)
 
 
 def get_api_keys() -> List[str]:
